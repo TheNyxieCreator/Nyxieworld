@@ -15,6 +15,7 @@ from ursina.prefabs.first_person_controller import FirstPersonController
 
 
 app = Ursina()
+window.borderless = False
 
 # Define a Voxel class.
 # By setting the parent to scene and the model to 'cube' it becomes a 3d button.
